@@ -6,9 +6,12 @@ For further background see the "Details" section below or the [forum thread](htt
 
 # Instructions
 
-1. Make sure you have administrator privileges
+1. Press "Download ZIP" button
+1. Unzip into a directory of your choice
 1. Edit `helgoboss-ni-config.bat` (replace with your own directories)
-1. Run one of the `helgoboss-ni-fix-*.bat` files, for example `helgoboss-ni-fix-massive.bat`
+1. Start a command line in admin mode (start menu => type "cmd.exe" => right mouse click on it => run as admin)
+1. `cd <directory-where-you-unzipped-the-stuff>`
+1. Run one of the `helgoboss-ni-fix-*.bat` files, for example `helgoboss-ni-fix-massive.bat` (by typing it and pressing enter)
 1. Check if it worked (should run faster), otherwise undo the change by running the corresponding `helgoboss-ni-rollback-*.bat` file, for example `helgoboss-ni-rollback-massive.bat`
 1. If you are sure it worked, you can run the remaining `helgoboss-ni-fix-*.bat` files
 
