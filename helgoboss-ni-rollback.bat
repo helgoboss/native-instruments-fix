@@ -7,4 +7,4 @@ if "%~3" == "" (
 sfk replace "%VST_PLUGINS_32_DIR%\%FILE_NAME%.dll" "/Software\NI %~2\/Software\Native Instruments\/" -case -firsthit -yes
 sfk replace "%VST_PLUGINS_64_DIR%\%FILE_NAME%.dll" "/Software\NI %~2\/Software\Native Instruments\/" -case -firsthit -yes
 sfk replace "%NI_PROGRAMS_DIR%\%~1\%FILE_NAME%.exe" "/Software\NI %~2\/Software\Native Instruments\/" -case -firsthit -yes
-reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\NI %~2" /va /ve /f
+reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\NI %~2" /va /f
